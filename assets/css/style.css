@@ -1655,3 +1655,21 @@ td, th {
 tr:nth-child(even) {
   background-color: #d8f6c8;
 }
+
+
+
+
+.flex-containermy {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(172, 201, 229);
+}
+
+.flex-containermy > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
